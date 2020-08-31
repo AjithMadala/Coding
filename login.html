@@ -1,0 +1,42 @@
+<html>
+
+<head>
+   <title>Login Page</title>
+   <link rel="stylesheet" href="BootstrapCdn/bootstrap.min.css">
+   <script src="BootstrapCdn/bootstrap.min.js"></script>
+   <script src="BootstrapCdn/jquery.min.js"></script>
+   <style>
+      body {
+         margin-left: 550px;
+         margin-top: 250px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="form-group">
+      <form action="login.php" method="GET">
+
+         <div class="row">
+            <div class="col-md-4">
+               <label for="us">Username</label>
+               <input type="text" name="usr" class="form-control" id="us" required>
+            </div>
+         </div>
+         <br>
+         <div class="row">
+            <div class="col-md-4">
+               <label for="p">Password</label>
+               <input type="password" name="passw" class="form-control" id="p" required>
+            </div>
+         </div><br><br>
+         <div class="row ">
+            <div class="col-md-4">
+               <input type="submit" class="form-control">
+            </div>
+         </div>
+      </form>
+   </div>
+</body>
+
+</html>
